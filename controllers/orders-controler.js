@@ -13,7 +13,7 @@ ordersRouter.get("/orders", async (req, res) => {
 
 
 ordersRouter.post('/orders', async (req, res) => {
-    console.log(req.body)
+    console.log(req.body, "controller")
 
     let result = await addOrder(req.body);
     

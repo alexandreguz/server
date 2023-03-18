@@ -38,7 +38,7 @@ const addOrder = async (order_id, product_id, user_id) => {
 
         result.success = true
         result.data = res[0]
-console.log(result)
+console.log(result, "dal")
         return result
     } catch (err) {
         result.success = false

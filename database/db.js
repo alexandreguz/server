@@ -9,10 +9,4 @@ const connection = mysql.createConnection({
   database: 'ecommerce' 
 });
 
-// connection.connect((err) => {
-//   if (err) console.log(err);
-//   else console.log("MySQL is connected...");
-// });
-
-// module.exports = connection;
 export default connection
